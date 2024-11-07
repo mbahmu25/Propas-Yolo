@@ -175,10 +175,10 @@ class Predict:
             arr = arr + tambahan
 
         # clear image patch dalamm folder temp
-        delete_patch_temp('png')
-        delete_patch_temp('json')
-        # delete_png_files('datasets/img')
-        delete_files_with_extensions('./', ['.png', '.aux.xml'])
+        # delete_patch_temp('png')
+        # delete_patch_temp('json')
+        # # delete_png_files('datasets/img')
+        # delete_files_with_extensions('./', ['.png', '.aux.xml'])
         # delete_png_files('datasets/trial-maret')
 
         # Write the combined list to a new JSON file
